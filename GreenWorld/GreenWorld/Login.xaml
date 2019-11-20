@@ -7,11 +7,14 @@
              x:Class="GreenWorld.Login"
              Padding="5,10,5,5">
     <NavigationPage.TitleView>
-        <Label Text="LOGIN"
-               VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand"
-               TextColor="White"
-               FontAttributes="Bold"/>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center" >
+            <Label Text="LOGIN"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+        
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center"

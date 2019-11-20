@@ -134,10 +134,15 @@ namespace GreenWorld
 
         void OnProfileButtonClicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Login());
+            Navigation.PushAsync(new ProfilePageNew());
         }
 
         void OnBottomBarListButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Login());
+        }
+
+        void OnBottomBarRecordTaskButton(object sender, EventArgs e)
         {
             Navigation.PushAsync(new RecordTasksPage());
         }

@@ -1934,24 +1934,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\omega\\.nuget\\packages\\": {},
+    "C:\\Users\\Ayman\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld.Android\\GreenWorld.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld.Android\\GreenWorld.Android.csproj",
       "projectName": "GreenWorld.Android",
-      "projectPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld.Android\\GreenWorld.Android.csproj",
-      "packagesPath": "C:\\Users\\omega\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld.Android\\obj\\",
+      "projectPath": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld.Android\\GreenWorld.Android.csproj",
+      "packagesPath": "C:\\Users\\Ayman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\omega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj": {
-              "projectPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj"
+            "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj": {
+              "projectPath": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj"
             }
           }
         }

@@ -10,5 +10,7 @@ namespace GreenWorld
         public string Text { get; set; }
         public string ImageUrl { get; set; }
         public string LinkUrl { get; set; }
+
+        public int ItemOrder { get; set; }
     }
 }

@@ -21,7 +21,6 @@
                     <Label Text="Points Total:"></Label>
                 </StackLayout>
             </StackLayout>
-
             <StackLayout Orientation="Horizontal"
                          BackgroundColor="MediumAquamarine">
                 <StackLayout BackgroundColor="Yellow">
@@ -29,14 +28,32 @@
                            TextColor="Tomato"
                            FontSize="Default"
                            FontAttributes="Bold"/>
-                    <ListView ItemsSource="{Binding Tips}"></ListView>
+                    <ListView ItemsSource="{Binding Tasks}">
+                        <ListView.ItemTemplate >
+                            <DataTemplate >
+                                <ViewCell >
+                                    <Label Text="{Binding TaskName}"/>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </StackLayout>
                 <StackLayout>
                     <Label Text="Date Completed" 
                            TextColor="Tomato"
                            FontSize="Default"
                            FontAttributes="Bold"/>
-                    <ListView ItemsSource="{Binding Tips}"></ListView>
+                    <ListView ItemsSource="{Binding Tasks}">
+                            <ListView.ItemTemplate >
+                                <DataTemplate >
+                                    <ViewCell >
+                                    <Label Text="{Binding CompletionDate}"/>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        
+                        
                 </StackLayout>
             </StackLayout>
 

@@ -23,6 +23,8 @@ namespace GreenWorld
 
             Tips = new List<Tip>();
 
+            
+
             Tips.Add(new Tip
             {
                 Title = "Eat Less Meat",

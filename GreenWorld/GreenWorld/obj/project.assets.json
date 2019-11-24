@@ -568,23 +568,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ayman\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\omega\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
+      "projectUniqueName": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
       "projectName": "GreenWorld",
-      "projectPath": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
-      "packagesPath": "C:\\Users\\Ayman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayman\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\obj\\",
+      "projectPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
+      "packagesPath": "C:\\Users\\omega\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\omega\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

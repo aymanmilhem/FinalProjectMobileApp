@@ -21,49 +21,45 @@
                     <Label Text="Points Total:"></Label>
                 </StackLayout>
             </StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         BackgroundColor="MediumAquamarine">
-                <StackLayout BackgroundColor="Yellow">
-                    <Label Text="Past Tasks Completed" 
-                           TextColor="Tomato"
-                           FontSize="Default"
-                           FontAttributes="Bold"/>
-                    <ListView ItemsSource="{Binding Tasks}">
-                        <ListView.ItemTemplate >
-                            <DataTemplate >
-                                <ViewCell >
-                                    <Label Text="{Binding TaskName}"/>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </StackLayout>
+            <StackLayout>
                 <StackLayout>
-                    <Label Text="Date Completed" 
-                           TextColor="Tomato"
-                           FontSize="Default"
-                           FontAttributes="Bold"/>
-                    <ListView ItemsSource="{Binding Tasks}">
+                    <StackLayout Orientation="Horizontal"
+                         BackgroundColor="MediumAquamarine">
+                        <Label Text="Completed Task"
+                               HorizontalOptions="StartAndExpand"
+                               TextColor="Tomato"
+                               FontSize="Default"
+                               FontAttributes="Bold"/>
+                        <Label Text="Completed On" 
+                               HorizontalOptions="EndAndExpand"
+                               TextColor="Tomato"
+                               FontSize="Default"
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <ListView ItemsSource="{Binding Tasks}">
                             <ListView.ItemTemplate >
                                 <DataTemplate >
                                     <ViewCell >
-                                    <Label Text="{Binding CompletionDate}"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{Binding TaskName}"
+                                                       HorizontalOptions="StartAndExpand"/>
+                                                <Label Text="{Binding CompletionDate}"
+                                                       HorizontalOptions="EndAndExpand"/>
+                                            </StackLayout>
                                     </ViewCell>
                                 </DataTemplate>
                             </ListView.ItemTemplate>
                         </ListView>
-                        
-                        
+                    </StackLayout>
                 </StackLayout>
             </StackLayout>
-
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
                 <Button Text="Profile"/>
                 <Button Text="List"/>
                 <Button Text="Record Tasks"/>
             </StackLayout>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

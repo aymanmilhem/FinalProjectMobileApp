@@ -10,7 +10,7 @@ namespace GreenWorld
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainMenuPage());
         }
 
         protected override void OnStart()

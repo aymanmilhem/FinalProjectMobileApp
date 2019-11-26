@@ -6,7 +6,6 @@
              mc:Ignorable="d"
              x:Class="GreenWorld.ProfilePageNew"
              NavigationPage.HasBackButton="True"
-             NavigationPage.BackButtonTitle="Back"
              Title="Profile">
     <ContentPage.Content>
         <StackLayout Padding="5,10,5,5">
@@ -46,7 +45,7 @@
                                                        HorizontalOptions="StartAndExpand"/>
                                                 <Label Text="{Binding CompletionDate}"
                                                        HorizontalOptions="EndAndExpand"/>
-                                            </StackLayout>
+                                        </StackLayout>
                                     </ViewCell>
                                 </DataTemplate>
                             </ListView.ItemTemplate>

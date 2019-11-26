@@ -5,16 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GreenWorld.MainPage"
-             NavigationPage.BackButtonTitle="Main Menu"
+             NavigationPage.HasNavigationBar="True"
              NavigationPage.HasBackButton="True"
              Title="Ways To Be Eco-Friendly">
-    <NavigationPage.TitleView>
-        <Label Text="Ways To Be Eco-Friendly"
-               VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand"
-               TextColor="White"
-               FontAttributes="Bold"/>
-    </NavigationPage.TitleView>
+    
     <StackLayout Margin="5"
                  HorizontalOptions="Center">
         <ListView ItemsSource="{Binding Tips}"

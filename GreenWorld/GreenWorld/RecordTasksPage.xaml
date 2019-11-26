@@ -5,16 +5,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GreenWorld.RecordTasksPage"
-             NavigationPage.BackButtonTitle="Main Menu"
+             NavigationPage.HasNavigationBar="True"
              NavigationPage.HasBackButton="True"
              Title="Record Tasks">
+    <!--
     <NavigationPage.TitleView>
-        <Label Text="RECORD TASKS"
-               VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand"
-               TextColor="White"
-               FontAttributes="Bold"/>
+        <Label Text="Record Tasks"
+               HorizontalOptions="Center"
+               TextColor="White"/>
     </NavigationPage.TitleView>
+    -->
     <StackLayout Margin="10,20,10,10"
                  HorizontalOptions="Center">
         <ListView ItemsSource="{Binding Tips}"

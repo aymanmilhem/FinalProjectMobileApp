@@ -16,6 +16,9 @@
             <Button x:Name="MainPageLoginButton"
                     Text="Login"
                     Clicked="MainPageLoginButton_Clicked" />
+            <Button x:Name="MainPageSignUpButton"
+                    Text="Sign Up"
+                    Clicked="MainPageSignUpButton_OnClicked" />
             <Button x:Name="MainPageProfileButton"
                     Text="Profile"
                     Clicked="MainPageProfileButton_Clicked"/>

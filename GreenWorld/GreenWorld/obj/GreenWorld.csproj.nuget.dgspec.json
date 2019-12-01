@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj": {}
+    "C:\\Users\\Ayman\\source\\repos\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj": {
+    "C:\\Users\\Ayman\\source\\repos\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
+        "projectUniqueName": "C:\\Users\\Ayman\\source\\repos\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
         "projectName": "GreenWorld",
-        "projectPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
-        "packagesPath": "C:\\Users\\omega\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omega\\source\\repos\\GreenWorld\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\obj\\",
+        "projectPath": "C:\\Users\\Ayman\\source\\repos\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\GreenWorld.csproj",
+        "packagesPath": "C:\\Users\\Ayman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayman\\source\\repos\\FinalProjectMobileApp\\GreenWorld\\GreenWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\omega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -48,6 +47,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "SQLite.Net-PCL": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

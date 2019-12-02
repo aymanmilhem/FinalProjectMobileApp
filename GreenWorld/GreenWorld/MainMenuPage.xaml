@@ -28,6 +28,11 @@
             <Button x:Name="MainPageBrowseAsGuestButton"
                     Text="Browse List as a guest"
                     Clicked="MainPageBrowseAsGuestButton_Clicked"/>
+            <Button x:Name="MainPageUserListButton"
+                    Text="User List"
+                    FontAttributes="Bold"
+                    BackgroundColor="Aquamarine"
+                    Clicked="MainPageUserListButton_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>

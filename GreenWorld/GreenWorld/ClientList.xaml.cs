@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using GreenWorld.Persistence;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +16,13 @@ namespace GreenWorld
         public ClientList()
         {
             InitializeComponent();
+
+            var connection = DependencyService.Get<ISQLiteDB>().GetConnection();
+            connection.CreateTableAsync<User>();
+
+            connection.Table<User>().ToListAsync();
+
+            BindingContext = this;
         }
 
         private void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)

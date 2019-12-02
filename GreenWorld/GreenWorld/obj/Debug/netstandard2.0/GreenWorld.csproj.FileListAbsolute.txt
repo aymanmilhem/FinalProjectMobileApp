@@ -86,3 +86,5 @@ C:\Users\Ayman\source\repos\FinalProjectMobileApp\GreenWorld\GreenWorld\obj\Debu
 C:\Users\Ayman\source\repos\FinalProjectMobileApp\GreenWorld\GreenWorld\obj\Debug\netstandard2.0\GreenWorld.dll
 C:\Users\Ayman\source\repos\FinalProjectMobileApp\GreenWorld\GreenWorld\obj\Debug\netstandard2.0\ref\GreenWorld.dll
 C:\Users\Ayman\source\repos\FinalProjectMobileApp\GreenWorld\GreenWorld\obj\Debug\netstandard2.0\GreenWorld.pdb
+C:\Users\Ayman\source\repos\FinalProjectMobileApp\GreenWorld\GreenWorld\obj\Debug\netstandard2.0\GreenWorld.csprojAssemblyReference.cache
+C:\Users\Ayman\source\repos\FinalProjectMobileApp\GreenWorld\GreenWorld\obj\Debug\netstandard2.0\ClientList.xaml.g.cs
